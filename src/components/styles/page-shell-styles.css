@@ -1,0 +1,15 @@
+/* profile-header-styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@500&display=swap");
+
+.section-wrapper {
+  font-family: "Roboto Mono", monospace;
+  margin-top: 150px !important;
+  margin: auto;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.section-wrapper > * {
+  margin-bottom: 250px;
+}

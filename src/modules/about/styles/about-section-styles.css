@@ -1,0 +1,31 @@
+.about-section-wrapper {
+  max-width: 550px;
+}
+.header-number {
+  color: #71a4d6;
+}
+.section-divider {
+  border: 1px solid #ccd6f6; /* Adjust the color as needed */
+}
+.about-section-wrapper h1 {
+  color: #ccd6f6;
+}
+.about-section-text {
+  color: #5e6a85;
+}
+.about-section-text__highlight {
+  color: #71a4d6;
+}
+.about-section-text__emphasis {
+  color: #71a4d6;
+  text-decoration: underline;
+}
+.about-section-text__lists {
+  display: flex;
+  justify-content: flex-start;
+}
+.about-section-text ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 50px;
+}

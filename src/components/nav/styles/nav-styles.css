@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@500&display=swap");
+
+/* Styles for the navigation bar */
+.navbar {
+  margin-top: 15px;
+  margin-right: 25px;
+  padding: 15px;
+  text-align: right; /* Right-aligned content */
+  font-family: "Roboto Mono", monospace;
+}
+
+/* Styles for the navigation links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  --link-number-color: #71a4d6; /* Set the default color for the numbers */
+}
+
+.navbar a:hover {
+  color: var(--link-number-color);
+}
+
+.link-number {
+  color: var(--link-number-color);
+}

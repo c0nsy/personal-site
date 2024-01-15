@@ -1,0 +1,35 @@
+.nav-bar {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #ccd6f6; /* default color */
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+li.active {
+  background-color: rgba(113, 164, 214, 0.1);
+  border-radius: 15px;
+}
+
+.nav-bar__list {
+  margin-left: 20px;
+  color: #ccd6f6;
+}
+.nav-bar__list-header {
+  color: #71a4d6;
+}
+.nav-bar__list-date {
+  color: #5e6a85;
+}
+.nav-bar__list-accomplishments {
+  color: #ccd6f6;
+  list-style-type: disc;
+}

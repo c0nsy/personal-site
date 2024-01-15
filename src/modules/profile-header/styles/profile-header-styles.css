@@ -1,0 +1,45 @@
+/* profile-header-styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@500&display=swap");
+
+.profile-header-wrapper {
+  font-family: "Roboto Mono", monospace;
+  max-width: 550px;
+}
+.header-one {
+  color: #71a4d6;
+  font-size: 16px;
+}
+
+.header-two {
+  color: #ccd6f6;
+  font-size: 75px;
+}
+
+.header-three {
+  color: #8892b0;
+  font-size: 48px;
+}
+
+.header-description {
+  color: #5e6a85;
+  font-size: 18;
+  margin-top: 25px;
+}
+.header-link {
+  color: #71a4d6;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.header-link:hover {
+  border-bottom: 1px solid #71a4d6; /* Underline appears on hover */
+}
+.header-one,
+.header-two,
+.header-three {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  /* Add some space at the bottom of each element */
+  /* Adjust as needed */
+}
