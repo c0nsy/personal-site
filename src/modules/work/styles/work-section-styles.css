@@ -3,7 +3,27 @@
 }
 .header-number {
   color: #71a4d6;
+  text-align: left;
 }
 h1 {
   color: #ccd6f6;
+}
+
+@media (max-width: 600px) {
+  .work-section-wrapper {
+    text-align: center;
+    min-width: 1200px;
+  }
+  .header-text {
+    display: flex;
+    margin-left: 65px;
+    gap: 10px;
+  }
+  .nav-bar__list {
+    text-align: center;
+  }
+  .nav-bar__options {
+    text-align: center;
+    background-color: red;
+  }
 }

@@ -24,3 +24,18 @@
 .link-number {
   color: var(--link-number-color);
 }
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .navbar {
+    text-align: center; /* Center-aligned content for mobile */
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange children in a row */
+    flex-wrap: nowrap; /* Allow wrapping */
+  }
+
+  .navbar a {
+    margin-left: 12.5px; /* Add some margin */
+  }
+}

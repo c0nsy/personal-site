@@ -12,6 +12,7 @@ ul {
 li {
   padding: 10px;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 li.active {
@@ -32,4 +33,22 @@ li.active {
 .nav-bar__list-accomplishments {
   color: #ccd6f6;
   list-style-type: disc;
+}
+
+@media (max-width: 600px) {
+  .nav-bar__options li {
+    font-size: 0.75em; /* Make the text smaller */
+  }
+  .nav-bar__list-header,
+  .nav-bar__list {
+    font-size: 0.8em; /* Make the text smaller */
+  }
+  ul,
+  li {
+    max-width: 270px;
+    border-radius: 15px;
+    font-size: 1em; /* Make the text smaller */
+    text-align: left; /* Align text to the left */
+    word-wrap: break-word; /* Break the word at the end of the line */
+  }
 }

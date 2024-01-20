@@ -15,3 +15,10 @@ h1 {
   width: 16px; /* Adjust as needed */
   color: #71a4d6;
 }
+
+@media (max-width: 650px) {
+  .project-cards {
+    max-width: 370px;
+    margin-left: 30px;
+  }
+}

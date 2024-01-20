@@ -13,3 +13,10 @@
 .section-wrapper > * {
   margin-bottom: 250px;
 }
+@media (max-width: 600px) {
+  .section-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    text-align: center;
+  }
+}
