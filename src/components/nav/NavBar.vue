@@ -28,4 +28,6 @@ export default {
 };
 </script>
 
-<style scoped src="./styles/nav-styles.css"></style>
+<style scoped>
+@import "./styles/nav-styles.css";
+</style>

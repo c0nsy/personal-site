@@ -109,4 +109,6 @@ export default {
 };
 </script>
 
-<style scoped src="../styles/work-section-nav-styles.css"></style>
+<style scoped>
+@import "../styles/work-section-nav-styles.css";
+</style>

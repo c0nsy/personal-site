@@ -29,4 +29,6 @@ export default {
   },
 };
 </script>
-<style scoped src="./styles/page-shell-styles.css"></style>
+<style scoped>
+@import "./styles/page-shell-styles.css";
+</style>

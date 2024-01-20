@@ -21,4 +21,6 @@ export default {
   },
 };
 </script>
-<style scoped src="./styles/work-section-styles.css"></style>
+<style scoped>
+@import "./styles/work-section-styles.css";
+</style>

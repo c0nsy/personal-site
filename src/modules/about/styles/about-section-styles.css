@@ -39,6 +39,7 @@
   .about-section-text__lists {
     flex-direction: column; /* Stack the lists vertically */
     align-items: center; /* Center the lists */
+    text-align: center;
   }
 
   .about-section-text ul {
