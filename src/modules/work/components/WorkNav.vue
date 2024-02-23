@@ -13,6 +13,36 @@
     <div class="nav-bar__list">
       <div v-if="activeItemId === 1">
         <h2>
+          Lead Software Engineer
+          <span class="nav-bar__list-header">@ Pixyls</span>
+        </h2>
+        <p class="nav-bar__list-date">January 2024 - Present</p>
+        <ul class="nav-bar__list-accomplishments">
+          <li>
+            Spearheaded the design and implementation of Pixyls' backend system,
+            streamlining product creation processes and reducing time-to-market
+            by up to 90%.
+          </li>
+          <li>
+            Successfully integrated Pixyls' backend system with third-party APIs
+            and internal databases, optimising data flow and enhancing system
+            stability, resulting in a 80% decrease in error rates and system
+            downtime.
+          </li>
+          <li>
+            Designed and optimised algorithms to automate complex tasks, such as
+            image processing and data manipulation, leading to a significant
+            enhancement in system performance and reliability.
+          </li>
+          <li>
+            Implemented rigorous testing methodologies and continuous
+            integration pipelines to maintain code quality and reliability,
+            resulting in a 95% decrease in production bugs and errors.
+          </li>
+        </ul>
+      </div>
+      <div v-if="activeItemId === 2">
+        <h2>
           Software Engineer
           <span class="nav-bar__list-header">@ Morningstar</span>
         </h2>
@@ -41,7 +71,7 @@
           </li>
         </ul>
       </div>
-      <div v-if="activeItemId === 2">
+      <div v-if="activeItemId === 3">
         <h2>
           Product Manager <span class="nav-bar__list-header">@ TD Synnex</span>
         </h2>
@@ -61,7 +91,7 @@
           </li>
         </ul>
       </div>
-      <div v-if="activeItemId === 3">
+      <div v-if="activeItemId === 4">
         <h2>
           Media Analyst <span class="nav-bar__list-header">@ Canipre</span>
         </h2>
@@ -83,8 +113,6 @@
           </li>
         </ul>
       </div>
-
-      <p v-if="activeItemId === 3">Canipre: Fake description for Canipre</p>
     </div>
   </div>
 </template>
@@ -94,9 +122,10 @@ export default {
   data() {
     return {
       navItems: [
-        { id: 1, name: "Morningstar" },
-        { id: 2, name: "TD Synnex" },
-        { id: 3, name: "Canipre" },
+        { id: 1, name: "Pixyls" },
+        { id: 2, name: "Morningstar" },
+        { id: 3, name: "TD Synnex" },
+        { id: 4, name: "Canipre" },
       ],
       activeItemId: 1,
     };

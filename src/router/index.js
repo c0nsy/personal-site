@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // Define your routes
 const routes = [
-  { path: "/", redirect: "/home" },
+  { path: "/" },
   // Add more routes as needed
 ];
 
