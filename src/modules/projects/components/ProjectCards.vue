@@ -37,4 +37,6 @@ export default {
   },
 };
 </script>
-<style scoped src="../styles/project-cards-styles.css"></style>
+<style scoped>
+@import "../styles/project-cards-styles.css";
+</style>

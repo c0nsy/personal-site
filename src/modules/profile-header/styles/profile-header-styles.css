@@ -43,3 +43,18 @@
   /* Add some space at the bottom of each element */
   /* Adjust as needed */
 }
+/* Responsive styles */
+@media (max-width: 600px) {
+  .profile-header-wrapper {
+    text-align: center; /* Center-aligned content for mobile */
+  }
+  .header-two {
+    font-size: 30px; /* Make the text smaller */
+    white-space: nowrap;
+  }
+  .header-one,
+  .header-three,
+  .header-description {
+    font-size: 0.8em; /* Make the text smaller */
+  }
+}

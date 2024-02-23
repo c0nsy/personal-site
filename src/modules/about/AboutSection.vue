@@ -43,8 +43,6 @@
           <li>Vue</li>
           <li>NextJS</li>
           <li>MySQL</li>
-        </ul>
-        <ul>
           <li>AWS</li>
           <li>Git</li>
           <li>Docker</li>
@@ -61,4 +59,6 @@ export default {
 };
 </script>
 
-<style scoped src="./styles/about-section-styles.css"></style>
+<style scoped>
+@import "./styles/about-section-styles.css";
+</style>

@@ -28,4 +28,6 @@ export default {
   },
 };
 </script>
-<style scoped src="./styles/projects-section-styles.css"></style>
+<style scoped>
+@import "./styles/projects-section-styles.css";
+</style>

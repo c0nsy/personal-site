@@ -1,7 +1,10 @@
 <template>
   <div class="work-section-wrapper">
     <h1>
-      <span class="header-number">02.</span> Work Experience
+      <div class="header-text">
+        <span class="header-number">02. </span> Work Experience
+      </div>
+
       <hr class="section-divider" />
     </h1>
     <div class="work-section-nav">
@@ -18,4 +21,6 @@ export default {
   },
 };
 </script>
-<style scoped src="./styles/work-section-styles.css"></style>
+<style scoped>
+@import "./styles/work-section-styles.css";
+</style>

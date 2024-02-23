@@ -31,3 +31,20 @@
   padding: 0;
   margin-right: 50px;
 }
+/* Responsive styles */
+@media (max-width: 600px) {
+  .about-section-wrapper {
+    text-align: center; /* Center-aligned content for mobile */
+    font-size: 0.8em; /* Make the text smaller */
+  }
+
+  .about-section-text__lists {
+    flex-direction: column; /* Stack the lists vertically */
+    align-items: center; /* Center the lists */
+    text-align: center;
+  }
+
+  .about-section-text ul {
+    margin-right: 0; /* Remove the right margin */
+  }
+}

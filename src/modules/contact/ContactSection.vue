@@ -18,4 +18,6 @@ export default {
   name: "ContactSection",
 };
 </script>
-<style scoped src="./styles/contact-section-styles.css"></style>
+<style scoped>
+@import "./styles/contact-section-styles.css";
+</style>

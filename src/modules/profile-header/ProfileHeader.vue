@@ -18,4 +18,6 @@ export default {
   name: "ProfileHeader",
 };
 </script>
-<style scoped src="./styles/profile-header-styles.css"></style>
+<style scoped>
+@import "./styles/profile-header-styles.css";
+</style>
