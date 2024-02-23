@@ -1,12 +1,12 @@
 <template>
   <div class="one">
-    <NavBar />
+    <NavBar @scroll-to-section="scrollToSection" />
     <div class="section-wrapper">
-      <ProfileHeader />
-      <AboutSection />
-      <WorkSection />
-      <ProjectsSection />
-      <ContactSection />
+      <ProfileHeader ref="profileSection" />
+      <AboutSection ref="aboutSection" />
+      <WorkSection ref="workSection" />
+      <ProjectsSection ref="projectsSection" />
+      <ContactSection ref="contactSection" />
     </div>
   </div>
 </template>
@@ -26,6 +26,15 @@ export default {
     WorkSection,
     ProjectsSection,
     ContactSection,
+  },
+  methods: {
+    scrollToSection(sectionRef) {
+      const section = this.$refs[sectionRef];
+      if (section) {
+        const top = section.$el.offsetTop;
+        window.scrollTo({ top, behavior: "smooth" });
+      }
+    },
   },
 };
 </script>

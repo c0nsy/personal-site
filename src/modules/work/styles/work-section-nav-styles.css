@@ -33,3 +33,8 @@ li.active {
   color: #ccd6f6;
   list-style-type: disc;
 }
+@media (max-width: 768px) {
+  .nav-bar__list {
+    max-width: 150px;
+  }
+}

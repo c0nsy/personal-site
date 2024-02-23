@@ -1,11 +1,13 @@
 .about-section-wrapper {
   max-width: 550px;
+  font-size: 12px;
 }
 .header-number {
   color: #71a4d6;
 }
 .section-divider {
   border: 1px solid #ccd6f6; /* Adjust the color as needed */
+  max-width: 100%;
 }
 .about-section-wrapper h1 {
   color: #ccd6f6;

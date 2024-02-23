@@ -1,9 +1,30 @@
 .work-section-wrapper {
   max-width: 700px;
+  margin: 0 auto; /* Center the content */
 }
+
 .header-number {
   color: #71a4d6;
 }
-h1 {
+
+.work-section-wrapper h1 {
   color: #ccd6f6;
+}
+
+.work-section-nav {
+  color: #5e6a85;
+}
+
+.section-divider {
+  border: 1px solid #ccd6f6;
+  max-width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .work-section-wrapper {
+    max-width: 100%;
+    padding: 0 15px; /* Add some padding on smaller screens */
+    font-size: 12px;
+  }
 }

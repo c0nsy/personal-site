@@ -24,3 +24,15 @@
 .link-number {
   color: var(--link-number-color);
 }
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 10px 0;
+  }
+}

@@ -13,3 +13,14 @@
 .section-wrapper > * {
   margin-bottom: 250px;
 }
+
+@media (max-width: 600px) {
+  .section-wrapper {
+    width: 90%; /* Increase width for smaller screens */
+    margin-top: 50px !important; /* Decrease top margin for smaller screens */
+  }
+
+  .section-wrapper > * {
+    margin-bottom: 100px; /* Decrease bottom margin for smaller screens */
+  }
+}

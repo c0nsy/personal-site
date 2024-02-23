@@ -12,6 +12,9 @@ export default {
   components: {
     PageShell,
   },
+  mounted() {
+    document.title = "Connor Logan | SWE";
+  },
 };
 </script>
 

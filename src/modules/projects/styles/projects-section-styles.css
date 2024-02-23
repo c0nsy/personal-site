@@ -1,6 +1,7 @@
 .header-number {
   color: #71a4d6;
 }
+
 h1 {
   color: #ccd6f6;
 }
@@ -10,8 +11,36 @@ h1 {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 75px;
 }
+
 .folder-icon {
   height: 16px; /* Adjust as needed */
   width: 16px; /* Adjust as needed */
   color: #71a4d6;
+}
+
+.section-divider {
+  border: 1px solid #ccd6f6;
+  max-width: 100%;
+}
+
+.projects-section-wrapper {
+  max-width: 550px;
+  font-size: 12px;
+  margin: 0 auto; /* Center the content */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .projects-section-wrapper {
+    max-width: 100%;
+    padding: 0 15px; /* Add some padding on smaller screens */
+  }
+
+  .project-cards {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(200px, 1fr)
+    ); /* Adjust the minimum width of the cards */
+    grid-gap: 50px; /* Adjust the gap between the cards */
+  }
 }

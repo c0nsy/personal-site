@@ -1,12 +1,17 @@
 .contact-section-wrapper {
   max-width: 550px;
+  margin: 0 auto; /* centers the content */
+  font-size: 12px;
 }
+
 .header-number {
   color: #71a4d6;
 }
+
 h1 {
   color: #ccd6f6;
 }
+
 .center-text {
   text-align: center;
 }
@@ -19,6 +24,20 @@ h1 {
 .linkedin-link:hover {
   text-decoration: underline;
 }
+
 .contact-text {
   color: #5e6a85;
+}
+
+.section-divider {
+  border: 1px solid #ccd6f6;
+  max-width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .contact-section-wrapper {
+    max-width: 100%;
+    padding: 0 20px; /* add some padding on smaller screens */
+  }
 }
